@@ -1,0 +1,50 @@
+
+:root{
+    --wysokoscKul:60px;
+}
+
+html{
+    font-family: 'Monda', sans-serif;
+}
+
+body{
+    background-color: rgb(116, 116, 116);
+}
+
+
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 3px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+    
+}
+
+button:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition:.3s;
+}
+
+button:active{
+    letter-spacing: 2px;
+}
+
+div{
+    float:left;
+    margin: 10px 10px;
+    width: var(--wysokoscKul);
+    height: var(--wysokoscKul);
+    border: 2px solid rgb(253, 255, 113);
+    border-radius: 50%;
+    background-color: rgb(231, 235, 3);
+    text-align: center;
+    line-height: var(--wysokoscKul);
+    font-weight: 800;
+    font-size: 25px;
+    
+}
